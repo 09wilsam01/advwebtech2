@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="{{url_for('static', filename='indexstyles.css') }}">
+		<title>Big Boss Calendar - Log In</title>
+	</head>
+	
+	<body>
+		<div id="title">
+			<h1>Big Boss Calendar</h1>
+		</div>
+		 
+		<div id="form"> 
+			<form>
+				<input type=text, id="username" placeholder="Enter Username..." name="username" required> <br>			
+				<input type="password", placeholder="Enter Password..." name="password" required> <br>
+				<button type="submit">Login</button><br>
+				<input type="checkbox" checked="checked"> Remember me<br>
+				<a href="/passreset">Forgot password?</a><br><br>
+			</form>
+		</div>
+	</body>
+</html>
