@@ -1,0 +1,18 @@
+body{
+	background-color: #FAF9F6;
+	height: 97vh;
+	border-style: solid;
+	border-color: #B3D3FF;
+	border-width: 3px;
+}
+
+#title{
+	text-align: center;
+	margin-top: 8vh;
+	margin-left: 40%;
+	width: 35vh;
+	font-family: Arial Black, sans-serif;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #B3D3FF;
+}

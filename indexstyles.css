@@ -1,0 +1,50 @@
+body{
+	background-color: #FAF9F6;
+	height: 97vh;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #B3D3FF;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+#title{
+	text-align: center;
+	margin-top: 20vh;
+	margin-left: 36%;
+	width: 55vh;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #B3D3FF;
+	font-family: Arial Black, sans-serif;
+}
+
+button{
+    background-color: #B3D3FF;   
+    width: 20vh;  
+    padding: 15px;   
+    margin: 15px 0px;   
+    border: none;   
+    cursor: pointer;
+}
+
+input[id=username], input[type=password], [type=email]{   
+    width: 50vh;   
+    margin: 8px 0;  
+    padding: 12px 20px;
+	border-style: solid;
+	border-color: #B3D3FF
+}
+
+input[type=checkbox]{
+	margin-bottom: 15px;
+}
+
+button:hover{   
+    opacity: 0.7;   
+}
+        
+#form{
+	text-align: center;
+    padding: 15vh 15vh 9vh 15vh;
+}
